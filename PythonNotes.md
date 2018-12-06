@@ -39,6 +39,20 @@ Multiple Assignment
 
 x, y, name, is_cool = (1, 2.5, 'John', True)
 
+Basic Math
 
+a = x + y
+
+print(x, y, name, is_cool, a) (a would be 3.5)
+
+type(x) would return int.
+
+Casting
+
+Changing the Types of variables can be done as follows.
+
+x = str(x)
+
+print(type(x)) would return string.
 
 ```
