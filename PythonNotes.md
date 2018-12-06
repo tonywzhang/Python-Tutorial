@@ -101,6 +101,7 @@ Lists are very similar in concept to Arrays from JavaScript and other programmin
 
 A List is a collection which is ordered and changeable that allows duplicate members.
 
+```
 # Create List
 
 numbers = [1,2,3,4,5]
@@ -158,3 +159,26 @@ numbers.sort(reverse=True)
 # Change Value
 
 numbers[0] = '-1'
+```
+
+# Tuples
+
+A Tuple is a collection which is ordered and unchangeable. It allows duplicate members.
+
+```
+# Create Tuples
+
+fruits = ('Apples', 'Oranges', 'Grapes')
+fruits2 = tuple(('Apples', 'Oranges', 'Grapes'))
+
+print(fruits, fruits2) would return the same thing
+
+If you initialize a tuple with one value, that value still needs to be followed by a comma. IE:
+
+fruits = ('Apples',)
+
+
+
+```
+
+#Sets
