@@ -56,3 +56,24 @@ x = str(x)
 print(type(x)) would return string.
 
 ```
+
+# Strings
+
+```
+Strings in Python are surrounded by either single or double quotation marks.
+
+name = 'Brad'
+age = 37
+
+# Concatenate
+
+print('Hello, my name is ' + name + ' and I am ' + str(age) + ' years old')
+
+# String Formatting
+
+# Arguments by position
+
+print('My name is {name} and I am {age}'.format(name = name, age = age))
+
+
+```
