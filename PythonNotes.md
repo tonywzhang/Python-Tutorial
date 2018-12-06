@@ -93,6 +93,68 @@ print(s.swapcase()) #SwapCases String
 print(len(s)) # Prints Length of String
 print(s.replace('world', 'everyone'))
 
-
-
 ```
+
+# Lists
+
+Lists are very similar in concept to Arrays from JavaScript and other programming languages.
+
+A List is a collection which is ordered and changeable that allows duplicate members.
+
+# Create List
+
+numbers = [1,2,3,4,5]
+
+# Use a Constructor
+
+numbers2 = list((1,2,3,4,5))
+
+print(numbers, numbers2) would yield an equal list twice.
+
+Using a constructor is unnecessary when you can simply declare the list like numbers above.
+
+# Get a Value
+
+Lists are 0-indexed, like arrays, so you can index into a list at a certain index.
+
+numbers[1] would yield 2.
+
+# Get Length
+
+len(numbers) would yield 5
+
+# Append to List
+
+numbers.append(6)
+
+6 would then be appended to the back of the list
+
+# Insert into Position
+
+numbers.insert(2, 3)
+
+The first number represents the index to insert at, and the second argument represents the value to be inserted.
+
+# Remove From List
+
+numbers.remove(2)
+
+# Remove with pop
+
+numbers.pop(2)
+
+# Reverse List
+
+numbers.reverse()
+
+# Sort List
+
+numbers.sort()
+
+# Reverse Sort
+
+numbers.sort(reverse=True)
+
+# Change Value
+
+numbers[0] = '-1'
