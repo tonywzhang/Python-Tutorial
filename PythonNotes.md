@@ -75,5 +75,24 @@ print('Hello, my name is ' + name + ' and I am ' + str(age) + ' years old')
 
 print('My name is {name} and I am {age}'.format(name = name, age = age))
 
+# F Strings (Python Version 3.6+)
+
+print(f'Hello, my name is {name} and I am {age}')
+
+# String Methods
+
+s = 'hello world'
+
+# Capitalize Strings
+
+print(s.capitalize())
+
+print(s.upper()) #UpperCases String
+print(s.lower()) #LowerCases String
+print(s.swapcase()) #SwapCases String
+print(len(s)) # Prints Length of String
+print(s.replace('world', 'everyone'))
+
+
 
 ```
