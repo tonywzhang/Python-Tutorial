@@ -225,3 +225,15 @@ fruits_set.clear()
 del fruits_set leaves fruits_set as undefined
 
 ```
+
+# Dictionaries
+
+Dictionaries are very similar to Maps in JavaScript. They correspond to an unordered collection, changeable and indexed. No Duplicate members.
+
+# Create Dictionary
+
+person = {
+  'first_name': 'John',
+  'last_name': 'Doe',
+  'age': 30  
+}
