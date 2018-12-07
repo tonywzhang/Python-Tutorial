@@ -230,6 +230,7 @@ del fruits_set leaves fruits_set as undefined
 
 Dictionaries are very similar to Maps in JavaScript. They correspond to an unordered collection, changeable and indexed. No Duplicate members.
 
+```
 # Create Dictionary
 
 person = {
@@ -237,3 +238,76 @@ person = {
   'last_name': 'Doe',
   'age': 30  
 }
+
+# Get Value
+
+person['first_name'] OR person.get('first_name') both work
+
+# Adding a Key Value Pair
+
+person['phone'] = '123-456-7890'
+
+This will add the key 'phone' with a corresponding phone number inputted as a string.
+
+# Get Dictionary Keys
+
+person.keys() will return all of the keys in our dictionary
+
+# Get Dictionary Items
+
+person.items() will return all of the values in our dictionary
+
+# Copy Dictionary
+
+person2 = person.copy()
+
+this will make a copy of the person
+
+# Remove Item
+
+del(person['age'])
+person.pop('phone')
+
+# Clear
+
+person.clear() yields an empty dictionary
+
+# Get Length
+
+len(person)
+```
+
+# Functions
+
+A function is a block of code which only runs when it is called or invoked. In Python, we do not use curly brackets, we use indentation with tabs or spaces.
+
+```
+# Create Function
+
+def sayHello(name):
+  print(f'Hello {name}')
+
+
+sayHello('John Doe')
+
+This will return 'Hello John Doe' as expected.
+
+If you want to call on sayHello with no argument, we'll need to set a default value to "name" in the function declaration such as "name = 'sam'" or something of the like.
+
+# Return Values
+
+def getSum(num1, num2):
+  total = num1 + num2
+  return total
+
+getSum(3,4) returns 7 as expected.
+
+# A lambda function is a small anonymous function
+
+# A lambda function can take any number of arguments, but only have one expression. Very similar to JS arrow functions
+
+getSum = lambda num1,num2 : return num1 + num2
+
+getSum(10,3) returns 13 as expected
+
+```
