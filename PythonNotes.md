@@ -177,8 +177,51 @@ If you initialize a tuple with one value, that value still needs to be followed 
 
 fruits = ('Apples',)
 
+# Get Value
 
+fruits[1]
+
+# You cannot change a value at a specific index for tuple
+
+fruits[0] = 'Pears' would throw an error, unable to re-assign items
+
+# Delete Tuples
+
+del fruits2, fruits2 becomes undefined
+
+# Length of a Tuple
+
+print(len(fruits))
 
 ```
 
 #Sets
+
+A Set is a collection which is unordered and unindexed. No duplicate members are allowed. Very similar to that of a Set from JavaScript.
+
+```
+# Create Set
+
+fruits_set = {'Apples', 'Oranges', 'Mango'}
+
+# Check if in Set
+
+'Apples' in fruits_set will return a boolean, in this case True
+
+# Add to Set
+
+fruits_set.add('Grape')
+
+# Remove from set
+
+fruits_set.remove('Grape')
+
+# Clear Set Entirely
+
+fruits_set.clear()
+
+# Delete Set
+
+del fruits_set leaves fruits_set as undefined
+
+```
